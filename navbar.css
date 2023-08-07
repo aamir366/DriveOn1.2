@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navbar{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+    background-color: whitesmoke;
+    position: fixed;
+    margin-left: 180px;
+}
+
+#navbar #nav{
+    float: right;
+    padding-top: 8px;
+    width: 100%; 
+   
+}
+
+
+
+li{
+    list-style: none;
+    display: inline-block;
+   
+    
+  
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-left: 50px;
+   
+   
+  
+}
+
+#logo{
+    float: left;
+}
+
+#nav li a:hover,
+#nav li a.active {
+    color: rgb(245, 163, 2);
+    transition: 0.2s all ease-in-out;
+}

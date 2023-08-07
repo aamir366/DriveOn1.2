@@ -1,0 +1,303 @@
+
+
+
+#section2{
+  height: 500px;
+  width: 1065px;
+    text-align: center;
+    padding-top: 3.464vw;
+    color: #173c2a;
+    padding-bottom: 7.161vw;
+    background: linear-gradient(to bottom,#fff 50%,rgb(247, 182, 52) 90%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px ;
+    margin-top: -5vw;
+    
+  }
+
+.text-align-center{
+text-align: center !important;
+}
+
+.margin-bottom{
+margin-bottom: 3.255vw;
+}
+
+.small-heading {
+font-size: 1.432vw;
+}
+
+.text-center .small-heading {
+margin-left: auto;
+margin-right: auto;
+}
+
+h2{
+font-size: 20px;
+margin-left: -70px;
+margin-top: 1px;
+margin-bottom: -20px;
+}
+
+
+
+
+#inCity{
+background: url("./assets/images/incityDriver.webp") no-repeat center ;
+background-size: 100%;
+}
+
+#outStation{
+
+background: url("./assets/images/outstationDriver.webp") no-repeat center;
+background-size: 100%;
+
+}
+
+#weekly{
+background: url("./assets/images/weeklyDriver.webp") no-repeat center;
+background-size: 100%;
+}
+
+#daily{
+
+background: url("./assets/images/dailyDriver.jpg") no-repeat center;
+background-size: 100%;
+
+}
+
+#monthly{
+    background: url("./assets/images/monthlyDriver.webp") no-repeat center;
+    background-size: 100%;
+}
+
+#nightShift{
+
+background: url("./assets/images/nightDriver.webp") no-repeat center;
+background-size: 100%;
+
+}
+
+
+
+#inCityCabs{
+background: url("./assets/images/incityCabs.webp") no-repeat center;
+background-size: 100%;
+}
+
+#outStationCabs{
+
+background: url("./assets/images/outstationCabs.webp") no-repeat center;
+background-size: 100%;
+
+}
+
+#oneWayCabs{
+background: url("./assets/images/dzire.png") no-repeat center;
+background-size: 100%;
+}
+
+#luxuryCars{
+
+background: url("./assets/images/luxuryCars.webp") no-repeat center;
+background-size: 100%;
+
+}
+
+#suv{
+
+background: url("./assets/images/fortuner.jpg") no-repeat center;
+background-size: 100%;
+
+}
+
+#sedans{
+    background: url("./assets/images/sedan.png") no-repeat center;
+    background-size: 100%; 
+}
+
+.speciality{
+float: left;
+height: 155px;
+width: 314px;
+background-color: white;
+box-shadow: 0 0 1.302vw grey;
+padding: 7.161vw 0.651vw 0.651vw 0.651vw;
+margin: 1%;
+border-radius: 1vw;   
+transition: 0.3s all;
+cursor: pointer;
+position: relative;
+
+}
+
+.speciality:hover{
+box-shadow: 0 0 0.651vw grey;
+}
+
+.specialityname{
+ color: #173c2a;
+margin-top: 5px;
+background-color: white;
+border-radius: 1vw;
+
+padding: 0.651vw;
+border: 0.065vw solid #173c2a;
+font-weight: 700;
+transition: 0.5s all;
+z-index: 3;
+font-size: medium;
+}
+
+.speciality:hover .specialitydetails{
+opacity: 1;
+}
+
+.specialitydetails{
+position: absolute; 
+word-wrap: break-word;
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+background-color: white;
+border-radius: 1vw;
+word-wrap: break-word;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s all;
+opacity: 0;
+padding: 0.651vw;
+}
+
+.speciality-container{
+margin-left: 5px;
+padding-bottom: 3.464vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  details > summary {
+    list-style: none;
+  }
+
+  details summary::-webkit-details-marker {
+    display:none;
+   }
+
+
+  body{
+    background-color: rgb(225, 225, 241);
+  }
+
+  summary{
+    background-color: black;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    height: 70px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    background: white;
+    font-size: x-large;
+    font-weight: bold;
+   border-radius: 25px;
+    
+  }
+
+  details summary:hover{
+    transform: scale(1.01);
+    box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+    border: 3px solid rgb(236, 178, 62);
+    transition: 0.2s all ease-in-out;
+  }
+
+  summary #driverText{
+    margin-top: 5px;
+    width: 20%;
+    
+  }
+
+  #driverText{
+    margin-left: 50px;
+    color: #173c2a;
+  }
+
+  details { 
+    border: 5px solid transparent;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+   
+    
+    
+  }
+
+  details[open] summary {
+    color: black;
+   /* background-color: rgb(255, 170, 0);*/
+    
+  }
+
+
+
+.Driverdetails{
+  display: flex;
+ 
+  
+}
+
+.Driver{
+  flex: 33.33%;
+  padding-top: 15px;
+  margin-top: 1px;
+  height: 460px;
+
+  
+}
+
+.Driver img{
+  border-radius: 5%;
+  height: 200px;
+  width: 180px;
+  margin-left: 15px;
+  margin-right: 10px;
+  image-rendering: pixelated;
+}
+
+#driverText img{
+  height: 50px;
+  width: 50px;
+  margin-left: 300px;
+}
